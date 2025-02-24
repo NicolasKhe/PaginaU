@@ -1,0 +1,144 @@
+/* Estilos Generales */
+body {
+     background: linear-gradient(to right, #2c3e50, #34495e);
+    color: white;
+    text-align: center;
+}
+
+/* Contenedor principal */
+center {
+    max-width: 900px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Títulos */
+h1 {
+    text-align: center;
+    background: linear-gradient(90deg, #ff9800, #ffeb3b);
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Tablas de navegación */
+table {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+th {
+    padding: 15px;
+}
+
+th a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+th a:hover {
+    color: #f1c40f;
+}
+
+/* Estilo para el formulario */
+form {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Campos de entrada */
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+/* Campos de texto */
+input[type="text"], input[type="number"], input[type="email"], input[type="password"], input[type="date"], input[type="search"] {
+    background: rgba(255, 255, 255, 0.9);
+    color: black;
+}
+
+/* Radio y Checkbox */
+input[type="radio"], input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+/* Botones */
+input[type="submit"], input[type="reset"] {
+    background: linear-gradient(90deg, #ff9800, #ffeb3b);
+    color: black;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    background: linear-gradient(90deg, #ffeb3b, #ff9800);
+    transform: scale(1.05);
+}
+
+/* Efecto de sombra en los fieldsets */
+fieldset {
+    border: 2px solid #ffeb3b;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* Ajuste para los labels */
+label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Ajuste para el datalist */
+datalist option {
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+}
+
+/* Imagen flotante en el formulario */
+legend img {
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+nav {
+    background-color: #222f3e;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav a {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background-color: #f1c40f;
+    color: #222f3e;
+    transform: scale(1.1);
+}
